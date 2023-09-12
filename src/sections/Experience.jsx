@@ -76,7 +76,7 @@ export default function Experience({ titleStyle }) {
             />
           }
         >
-          <h3 className="vertical-timeline-element-title">크래프톤 정글 4기</h3>
+          <h3 className="vertical-timeline-element-title">크래프톤 정글 2기</h3>
           <h4 className="vertical-timeline-element-subtitle">수료</h4>
           <br />
           <div>

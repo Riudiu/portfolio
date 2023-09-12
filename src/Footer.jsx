@@ -36,7 +36,7 @@ export default function Footer({ mainColor }) {
             <i className="fab fa-github fa-2x"></i>
           </a>
           <a
-            href="https://github.com/djm07073"
+            href="https://www.linkedin.com/in/jiwoo-yun/"
             css={{
               color: "white",
               marginLeft: 10,
