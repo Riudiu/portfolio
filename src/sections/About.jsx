@@ -25,6 +25,7 @@ export default function About({ mainColor, titleStyle }) {
 
   return (
     <section
+      id="about"
       css={{
         display: "flex",
         flexDirection: "column",
@@ -39,7 +40,7 @@ export default function About({ mainColor, titleStyle }) {
           💻 &nbsp; 프론트엔드 개발자이자, 스마트 컨트랙트 개발자가 되고자
           합니다.
         </p>
-        <p>💼 &nbsp; 플러터 앱 개발자로 1년 정도 일하다가 퇴사한 상태입니다.</p>
+        <p>💼 &nbsp; 플러터 앱 개발자로 1년 정도 일한 경력이 있습니다.</p>
         <p>📚 &nbsp; 현재 전반적인 웹 기술과 블록체인을 공부하고 있습니다.</p>
       </ul>
       <div css={{ width: "100%" }}>

@@ -3,6 +3,7 @@
 export default function Home() {
   return (
     <section
+      id="home"
       css={{
         height: "100vh",
       }}

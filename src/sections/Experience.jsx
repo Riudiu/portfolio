@@ -11,6 +11,7 @@ import pood from "../assets/pood_logo.png";
 export default function Experience({ titleStyle }) {
   return (
     <section
+      id="experience"
       css={{
         display: "flex",
         flexDirection: "column",

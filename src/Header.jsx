@@ -14,6 +14,14 @@ export default function Header({ mainColor }) {
     }
   `;
 
+  function ClickNav(id) {
+    const divTop = document.querySelector(`#${id}`).offsetTop;
+    window.scrollTo({
+      behavior: "smooth",
+      top: divTop - 88,
+    });
+  }
+
   return (
     <div
       css={{
@@ -57,10 +65,18 @@ export default function Header({ mainColor }) {
         </div>
       </div>
       <div css={{ display: "flex", flexDirection: "row" }}>
-        <div css={navStyle}>HOME</div>
-        <div css={navStyle}>ABOUT</div>
-        <div css={navStyle}>EXPERIENCE</div>
-        <div css={navStyle}>SKILL</div>
+        <div css={navStyle} onClick={() => ClickNav("home")}>
+          HOME
+        </div>
+        <div css={navStyle} onClick={() => ClickNav("about")}>
+          ABOUT
+        </div>
+        <div css={navStyle} onClick={() => ClickNav("experience")}>
+          EXPERIENCE
+        </div>
+        <div css={navStyle} onClick={() => ClickNav("skill")}>
+          SKILL
+        </div>
       </div>
     </div>
   );

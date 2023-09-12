@@ -29,6 +29,7 @@ export default function Skill({ mainColor, titleStyle }) {
 
   return (
     <section
+      id="skill"
       css={{
         display: "flex",
         flexDirection: "column",
@@ -91,10 +92,10 @@ export default function Skill({ mainColor, titleStyle }) {
             <li css={barStyle}>
               <div css={bar_metadata}>
                 <span>Solidity</span>
-                <span>20%</span>
+                <span>10%</span>
               </div>
               <div css={bar_bg}>
-                <div css={bar_value} style={{ width: "20%" }}></div>
+                <div css={bar_value} style={{ width: "10%" }}></div>
               </div>
             </li>
           </ul>
