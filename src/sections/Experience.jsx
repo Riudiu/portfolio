@@ -50,9 +50,11 @@ export default function Experience({ titleStyle }) {
             블록체인 밸리 4기 학회원
           </h3>
           <h4 className="vertical-timeline-element-subtitle">개발팀</h4>
-          <p>고려대학교를 기반으로 활동하는 블록체인 학회</p>
+          <br />
+          <div>고려대학교를 기반으로 활동하는 블록체인 학회</div>
           <div>Web3 및 DAO 거버넌스, 디지털 월렛 등 블록체인 심화지식 탐구</div>
-          <p>블록체인의 작동원리, 메인넷, NFT, Defi, EVM, Solidity</p>
+          <br />
+          <div>블록체인의 작동원리, 메인넷, NFT, Defi, EVM, Solidity</div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -76,9 +78,13 @@ export default function Experience({ titleStyle }) {
         >
           <h3 className="vertical-timeline-element-title">크래프톤 정글 4기</h3>
           <h4 className="vertical-timeline-element-subtitle">수료</h4>
-          <p>탄탄한 기본기를 바탕으로 평생 성장할 수 있는 개발자 양성 과정</p>
+          <br />
+          <div>
+            탄탄한 기본기를 바탕으로 평생 성장할 수 있는 개발자 양성 과정
+          </div>
           <div>CS 위주의 커리큘럼, 미션 기반의 팀 프로젝트 중심</div>
-          <p>자료구조, 알고리즘, C언어, 운영체제, PintOS</p>
+          <br />
+          <div>자료구조, 알고리즘, C언어, 운영체제, PintOS</div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -99,9 +105,11 @@ export default function Experience({ titleStyle }) {
           <h4 className="vertical-timeline-element-subtitle">
             맞춤솔루션 기반 반려동물 e커머스 플랫폼 'Pood' 앱 개발
           </h4>
-          <p>Flutter 프로젝트 개발 및 운영</p>
+          <br />
+          <div>Flutter 프로젝트 개발 및 운영</div>
           <div>출시 6개월 만에 누적 회원 수 1만명 돌파, Series A 투자 유치</div>
-          <p>Dart, Flutter, GetX, Dio, Firebase</p>
+          <br />
+          <div>Dart, Flutter, GetX, Dio, Firebase</div>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </section>

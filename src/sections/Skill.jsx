@@ -105,29 +105,31 @@ export default function Skill({ mainColor, titleStyle }) {
             padding: "1rem",
             backgroundColor: "#050a13",
             filter: "brightness(180%)",
+            textAlign: "center",
           }}
         >
           <h3 css={skill_title}>Tools</h3>
-          <ul>
-            <li>Git & Github</li>
-            <li>Github Actions</li>
-            <li>AWS</li>
-          </ul>
+          <p>
+            <div>Git & Github</div>
+            <div>Github Actions</div>
+            <div>AWS</div>
+          </p>
         </section>
         <section
           css={{
             padding: "1rem",
             backgroundColor: "#050a13",
             filter: "brightness(140%)",
+            textAlign: "center",
           }}
         >
           <h3 css={skill_title}>Interest</h3>
-          <ul>
-            <li>Tokenomics</li>
-            <li>DApp</li>
-            <li>NFT</li>
-            <li>DeFi </li>
-          </ul>
+          <p>
+            <div>Tokenomics</div>
+            <div>DApp</div>
+            <div>NFT</div>
+            <div>DeFi </div>
+          </p>
         </section>
       </div>
     </section>
