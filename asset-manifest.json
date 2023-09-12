@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b76ce245.css",
+    "main.js": "/portfolio/static/js/main.120f03c0.js",
+    "static/media/riudiu_profile.png": "/portfolio/static/media/riudiu_profile.e765be353dc7a341186e.png",
+    "static/media/jungle_logo.png": "/portfolio/static/media/jungle_logo.bca02d1c0ebbc19f1a27.png",
+    "static/media/pood_logo.png": "/portfolio/static/media/pood_logo.b9140f96e62f4ea7a380.png",
+    "index.html": "/portfolio/index.html",
+    "main.b76ce245.css.map": "/portfolio/static/css/main.b76ce245.css.map",
+    "main.120f03c0.js.map": "/portfolio/static/js/main.120f03c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b76ce245.css",
+    "static/js/main.120f03c0.js"
+  ]
+}
