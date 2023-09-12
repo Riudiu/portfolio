@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 
-export default function Footer({ greenColor }) {
+export default function Footer({ mainColor }) {
   return (
     <div
       css={{
@@ -12,7 +12,7 @@ export default function Footer({ greenColor }) {
         flexDirection: "column",
       }}
     >
-      <div css={{ fontSize: 32, fontWeight: "bold", padding: "20px 0px" }}>
+      <div css={{ fontSize: 32, fontWeight: "bold", padding: "35px 0px 15px" }}>
         Contact Me
       </div>
       <div
@@ -29,7 +29,7 @@ export default function Footer({ greenColor }) {
             css={{
               color: "white",
               ":hover": {
-                color: greenColor,
+                color: mainColor,
               },
             }}
           >
@@ -41,7 +41,7 @@ export default function Footer({ greenColor }) {
               color: "white",
               marginLeft: 10,
               ":hover": {
-                color: greenColor,
+                color: mainColor,
               },
             }}
           >

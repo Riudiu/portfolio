@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 import profile from "./assets/riudiu_profile.png";
 
-export default function Header({ greenColor }) {
+export default function Header({ mainColor }) {
   const navStyle = css`
     font-size: 16px;
     padding: 22px 30px;
@@ -10,7 +10,7 @@ export default function Header({ greenColor }) {
     cursor: pointer;
     font-weight: bold;
     &:hover {
-      color: ${greenColor};
+      color: ${mainColor};
     }
   `;
 

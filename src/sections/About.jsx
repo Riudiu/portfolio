@@ -1,28 +1,28 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 
-const majorStyle = css`
-  width: 30%;
-  padding: 2rem 1rem;
-  background-color: #050a13;
-  color: #ffffff;
-  border-radius: 1rem;
-  box-shadow: 3px 3px 0px 0px skyBlue;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  &:hover .major__icon {
-    transform: scale(1.2);
-  }
-`;
-const majorIcon = css`
-  font-size: 4rem;
-  margin: 1rem 0;
-  color: skyBlue;
-  transition: all 0.3s ease-in-out;
-`;
+export default function About({ mainColor, titleStyle }) {
+  const majorStyle = css`
+    width: 30%;
+    padding: 2rem 1rem;
+    background-color: #050a13;
+    color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 0px 0px ${mainColor};
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:hover .major__icon {
+      transform: scale(1.2);
+    }
+  `;
+  const majorIcon = css`
+    font-size: 4rem;
+    margin: 1rem 0;
+    color: ${mainColor};
+    transition: all 0.3s ease-in-out;
+  `;
 
-export default function About({ titleStyle }) {
   return (
     <section
       css={{
@@ -50,7 +50,7 @@ export default function About({ titleStyle }) {
             alignItems: "center",
             margin: "2.5rem 0",
             gap: "0.5rem",
-            padding: "0 2rem",
+            padding: "0 3rem",
           }}
         >
           <li className="major" css={majorStyle}>
