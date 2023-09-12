@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Home from "./sections/Home";
 import About from "./sections/About";
 import Skill from "./sections/Skill";
+import Experience from "./sections/Experience";
 
 import { css } from "@emotion/react";
 
@@ -19,17 +20,7 @@ export default function App() {
       <Header mainColor={mainColor} />
       <Home />
       <About mainColor={mainColor} titleStyle={titleStyle} />
-      <section
-        css={{
-          display: "flex",
-          justifyContent: "center",
-          padding: "60px 0px",
-          backgroundColor: "black",
-          color: "white",
-        }}
-      >
-        <h2 css={titleStyle}>Experiences</h2>
-      </section>
+      <Experience titleStyle={titleStyle} />
       <Skill mainColor={mainColor} titleStyle={titleStyle} />
       <Footer mainColor={mainColor} />
     </div>
